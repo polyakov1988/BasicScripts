@@ -6,7 +6,6 @@ public class AllMovementCubeMovement : MonoBehaviour
     private readonly float _moveForwardSpeed = 2f;
     private readonly float _scaleSpeed = 0.05f;
     
-    // Update is called once per frame
     private void Update()
     {
         MoveForward();
